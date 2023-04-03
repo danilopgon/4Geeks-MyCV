@@ -1,13 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Source+Code+Pro:ital,wght@0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9d65c4c1b1.js"
+      crossorigin="anonymous"
+    ></script>
     <title>My CV - Daniel López González</title>
-</head>
-<body>
-   
-</body>
+  </head>
+  <body>
+    <div class="page">
+      <header>
+        <div class="header-left">
+          <h1>Daniel López</h1>
+          <h2>Creador de contenido digital</h2>
+          <p>
+            Profesional con perspectiva de 360º en varias áreas de la
+            comunicación, incluyendo periodismo digital, marketing y redes
+            sociales.
+          </p>
+        </div>
+        <div class="header-right">
+          <ul>
+            <li id="email">
+              contacto@danilopgon.com <i class="fa-solid fa-envelope fa-fw"></i>
+            </li>
+            <li id="github">
+              github.com/danilopgon <i class="fa-brands fa-github fa-fw"></i>
+            </li>
+            <li id="telefono">
+              (+34) 685014718 <i class="fa-solid fa-phone fa-fw"></i>
+            </li>
+            <li id="web">
+              stackoverflow.com/u/danilopgon<i
+                class="fa-brands fa-stack-overflow fa-fw"
+              ></i>
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <div class="left-column">
+          <div class="category programming">
+            <h2>
+              <i class="fa-solid fa-code"></i> Experiencia en programación
+            </h2>
+            <h3>Dominio de los conceptos de</h3>
+            <ul>
+              <li>Object Oriented JavaScript</li>
+              <li>NodeJS</li>
+              <li>AngularJS</li>
+            </ul>
+            <h3>Experiencia en</h3>
+            <ul>
+              <li>
+                Desarrollo de complementos y bibliotecas escalables de
+                Javascript con AngularJS y Javascript Orientado a Objetos.
+              </li>
+              <li>Escritura de configuraciones de construcción.</li>
+              <li>
+                Herramientas y bibliotecas conocidas: Grunt, SASS, Express,
+                Socket.io, Mongoose.
+              </li>
+              <li>Desarrollo de servidores con NodeJS, MongoDB.</li>
+              <li>Desarrollo de interfaces de usuario responsivas.</li>
+            </ul>
+          </div>
+          <div class="category education">
+            <h2><i class="fa-solid fa-graduation-cap"></i> Educación</h2>
+            <ol class="timeline">
+              <li class="lista-exterior">
+                <h4>
+                  Full Stack Web Developer<span class="timeline-label"
+                    >2023 &nbsp&nbsp&nbsp| 2023</span
+                  >
+                </h4>
+                <h5>
+                  <i class="fa-solid fa-building-columns"></i>4Geeks Academy
+                </h5>
+                <ul>
+                  <li>Formación en proceso</li>
+                </ul>
+              </li>
+              <li class="lista-exterior">
+                <h4>
+                  Master en documental transmedia<span class="timeline-label"
+                    >2019 &nbsp&nbsp&nbsp| 2020</span
+                  >
+                </h4>
+                <h5>
+                  <i class="fa-solid fa-building-columns"></i>Universidad Carlos
+                  III de Madrid
+                </h5>
+                <ul>
+                  <li>Dos matriculas de honor</li>
+                </ul>
+              </li>
+              <li class="lista-exterior">
+                <h4>
+                  Grado en Periodismo<span class="timeline-label"
+                    >2012 &nbsp&nbsp&nbsp| 2016</span
+                  >
+                </h4>
+                <h5>
+                  <i class="fa-solid fa-building-columns"></i>Universidad de
+                  Castilla-La Mancha
+                </h5>
+                <ul>
+                  <li>Mención en periodismo digital</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="right-column">
+          <div class="category skills">
+            <h2><i class="fa-solid fa-wrench"></i> Habilidades</h2>
+            <div class="botones-skills">
+              <button type="button" disabled>Javascript</button>
+              <button type="button" disabled>AngularJS</button>
+              <button type="button" disabled>MongoDB</button>
+              <button type="button" disabled>NodeJS</button>
+            </div>
+          </div>
+          <div class="category experience">
+            <h2><i class="fa-solid fa-suitcase"></i> Experiencia laboral</h2>
+            <ol class="timeline">
+              <li class="lista-exterior">
+                <h4>
+                  Gestor de redes sociales<span class="timeline-label"
+                    >2021 &nbsp&nbsp&nbsp| 2023</span
+                  >
+                </h4>
+                <div class="contenedor-empresa">
+                  <div class="workplace">
+                    <h5><i class="fa-solid fa-suitcase"></i>RTVE</h5>
+                  </div>
+                  <div class="location">
+                    <h5><i class="fa-solid fa-location-dot"></i>Madrid</h5>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    Gestión del contenido de entretenimiento en las principales
+                    redes sociales de la corporación
+                  </li>
+                  <li>Cobertura de prime time en La 1 y La 2.</li>
+                  <li>Cobertura de eventos y festivales.</li>
+                </ul>
+              </li>
+              <li class="lista-exterior">
+                <h4>
+                  Creador de contenido digital<span class="timeline-label"
+                    >2020 &nbsp&nbsp&nbsp| 2021</span
+                  >
+                </h4>
+                <div class="contenedor-empresa">
+                  <div class="workplace">
+                    <h5><i class="fa-solid fa-suitcase"></i>RTVE</h5>
+                  </div>
+                  <div class="location">
+                    <h5><i class="fa-solid fa-location-dot"></i>Madrid</h5>
+                  </div>
+                </div>
+                <ul>
+                  <li>
+                    Redacción de noticias y edición de fragmentos para la página
+                    web de RTVE.
+                  </li>
+                  <li>Creación de contenidos para redes sociales.</li>
+                  <li>Gestión de contenidos a través del CMS de la cadena.</li>
+                </ul>
+              </li>
+              <li class="lista-exterior">
+                <h4>
+                  Responsable de Comunicación<span class="timeline-label"
+                    >2017 &nbsp&nbsp&nbsp| 2019</span
+                  >
+                </h4>
+                <div class="contenedor-empresa">
+                  <div class="workplace">
+                    <h5>
+                      <i class="fa-solid fa-suitcase"></i>Torrijos & Asociados
+                    </h5>
+                  </div>
+                  <div class="location">
+                    <h5 class>
+                      <i class="fa-solid fa-location-dot"></i>Tarancón
+                    </h5>
+                  </div>
+                </div>
+                <ul>
+                  <li>Creación de contenido multimedia.</li>
+                  <li>Elaboración y mantenimiento de campañas SMM y SEO.</li>
+                  <li>Diseño y implementación de páginas web.</li>
+                </ul>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-left"><h1>Daniel López</h1></div>
+        <div class="footer-right">
+          <p class="texto-footer">contacto@danilopgon.com</p>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
